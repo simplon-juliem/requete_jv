@@ -27,6 +27,5 @@ while ($donnees = $reponse->fetch())
 $reponse->closeCursor();
 ?>
 
-$base = new PDO('mysql:host=localhost; dbname=test; charset=utf8', 'root', 'ecodair');
-$reponse = $bdd->query('SELECT * FROM jeux_video WHERE possesseur= \'Patrick\' AND console= \'PS2\'');
+
 </html>
